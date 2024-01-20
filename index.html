@@ -1,20 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Loja do Mel</title>
-</head>
-<body>
-
-    <header>
-    </header>
-
+  </head>
+  <body>
     <nav>
+      <a class="cart" href="/carrinho.html">
+        <img src="./assets/cart.svg" />
+        Ver carrinho de compras
+      </a>
+      <img src="./assets/logo.png" id="logo" />
+
+      <div class="login">
+        <img src="./assets/user.svg" />
+        <div>
+          <a>Olá, faça seu login</a>
+          <a>ou faça o seu cadastro</a>
+        </div>
+      </div>
     </nav>
 
-    <footer>
-    </footer>
+    <div class="section">
+      <h2>PRODUTOS EM DESTAQUE</h2>
+      <div class="productList">
+        <div class="product">
+          <img src="./assets/products/mel.png" />
+          <p>Mel Silvestre Rancheiro</p>
+          <p><b>R$ 14,79</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
 
-</body>
+        <div class="product">
+          <img src="./assets/products/propolis.webp" />
+          <p>Extrato de Própolis</p>
+          <p><b>R$ 34,90</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
+
+        <div class="product">
+          <img src="./assets/products/hidromel.png" />
+          <p>Hidromel Meadwine</p>
+          <p><b>R$89,90</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>PRODUTOS DISPONÍVEIS</h2>
+      <div class="productList">
+        <div class="product">
+          <img src="./assets/products/mel.png" />
+          <p>Mel Silvestre Rancheiro</p>
+          <p><b>R$ 14,79</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
+
+        <div class="product">
+            <img src="./assets/products/mel_e_geleia.png" />
+            <p>Mel & Geléia Real</p>
+            <p><b>R$ 12,90</b></p>
+            <button>
+              <img src="./assets/cart.svg" />
+              COMPRAR
+            </button>
+        </div>
+
+        <div class="product">
+          <img src="./assets/products/propolis.webp" />
+          <p>Extrato de Própolis</p>
+          <p><b>R$ 34,90</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
+
+        <div class="product">
+          <img src="./assets/products/hidromel.png" />
+          <p>Hidromel Meadwine</p>
+          <p><b>R$89,90</b></p>
+          <button>
+            <img src="./assets/cart.svg" />
+            COMPRAR
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        developed with <b style="color: #ffcb65"><3</b> <br />
+        by <a href="https://github.com/yurirxmos" target="_blank">@yurirxmos</a>
+      </p>
+      <p>
+        <b>© LOJA DO MEL 2024.</b>
+        <br />
+        Essa é uma loja fictícia, os produtos e conteúdos não correspondem à
+        realidade.
+      </p>
+    </footer>
+  </body>
 </html>
